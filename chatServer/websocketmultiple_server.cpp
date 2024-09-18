@@ -78,14 +78,14 @@ int main(void) {
     info.port = port;
     info.protocols = protocols;
 
-    // Create WebSocket context
+    // Creating WebSocket context
     context = lws_create_context(&info);
     if (!context) {
         std::cerr << "Failed to create WebSocket context" << std::endl;
         return -1;
     }
 
-    signal(SIGINT, signal_handler);  // Graceful shutdown on Ctrl+C
+    signal(SIGINT, signal_handler);  // Ctrl+C
 
     std::cout << "WebSocket chat server running on ws://localhost:" << port << std::endl;
 
