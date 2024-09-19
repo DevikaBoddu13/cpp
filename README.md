@@ -31,4 +31,6 @@ A simple WebSocket-based chat server using the `libwebsockets` library. The serv
    ```bash
    g++ -std=c++11 -o chatServer chatServer.cpp -lwebsockets
    ./chatServer
-
+4. Output
+   ```bash
+   https://somup.com/cZQq0ZmmuX
