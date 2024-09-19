@@ -25,9 +25,10 @@ A simple WebSocket-based chat server using the `libwebsockets` library. The serv
    git clone <repository-url>
    cd websocket-chat-server
 2. Install the libwebsockets library:
-  On Debian/Ubuntu:
-  sudo apt-get install libwebsockets-dev
-
+   ```bash
+   sudo apt-get install libwebsockets-dev
+3. Compilation & Execution
+  ```bash
   g++ -std=c++11 -o chat_server chat_server.cpp -lwebsockets
   ./chat_server
 
