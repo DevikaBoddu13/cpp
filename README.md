@@ -4,7 +4,7 @@
 
 This repository contains two applications: a **Chat Server** and an **Echo Server**, both implemented using the `libwebsockets` library in C++. These applications showcase basic WebSocket server functionalities: one for chat broadcasting and the other for message echoing.
 
-## 1. Chat Server Application
+## Chat Server Application
 
 ### Description
 A simple WebSocket-based chat server using the `libwebsockets` library. The server allows multiple clients to connect and broadcast messages to all other connected clients in real-time, simulating a chat room.
