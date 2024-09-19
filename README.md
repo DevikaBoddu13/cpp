@@ -28,7 +28,7 @@ A simple WebSocket-based chat server using the `libwebsockets` library. The serv
    ```bash
    sudo apt-get install libwebsockets-dev
 3. Compilation & Execution
-  ```bash
-  g++ -std=c++11 -o chatServer chatServer.cpp -lwebsockets
-  ./chatServer
+   ```bash
+   g++ -std=c++11 -o chatServer chatServer.cpp -lwebsockets
+   ./chatServer
 
