@@ -22,13 +22,13 @@ A simple WebSocket-based chat server using the `libwebsockets` library. The serv
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:DevikaBoddu13/cpp.git
    cd websocket-chat-server
 2. Install the libwebsockets library:
    ```bash
    sudo apt-get install libwebsockets-dev
 3. Compilation & Execution
   ```bash
-  g++ -std=c++11 -o chat_server chat_server.cpp -lwebsockets
-  ./chat_server
+  g++ -std=c++11 -o chatServer chatServer.cpp -lwebsockets
+  ./chatServer
 
